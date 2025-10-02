@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 // Replace with your Atlas URI (keep quotes around it)
-const uri = "mongodb+srv://plp_bookstore:1234@cluster0.zqogsg3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0cls";
+const uri = "mongodb+srv://plp_bookstore:@cluster0.zqogsg3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0cls";
 
 const client = new MongoClient(uri);
 
