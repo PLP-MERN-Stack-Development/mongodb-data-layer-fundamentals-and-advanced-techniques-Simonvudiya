@@ -1,5 +1,5 @@
 const { MongoClient } = require('mongodb');
-const uri = "mongodb+srv://plp_bookstore:1234@cluster0.zqogsg3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0cls";
+const uri = "mongodb+srv://plp_bookstore:@cluster0.zqogsg3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0cls";
 const dbName = "libraryDB";
 const collectionName = "books";
 
